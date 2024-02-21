@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.tab{
+  border: 1px solid rgb(254, 34, 34);
+  box-sizing: border-box;
+  width: 800px;
+  height: 300px;
+  margin: auto;
+
+}
+table {
+  width: 800px;
+  height: 100px;
+  margin: auto;
+}
+
+
+.dot {
+  margin: 0 10px;     
+  background-color: yellow ;
+}
+.dot1 {
+  background-color: red;
+}
+
+.new{
+  border: 2px solid black;
+  padding:25px;
+  width: 300px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.new1{
+  background-color: rgb(123, 123, 211);
+  width: 150px;
+}
