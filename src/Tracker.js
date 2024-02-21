@@ -44,29 +44,6 @@ function App() {
             <div>
                 <div>
                     <h2>Transcation</h2>
-                    {/* <table>
-                        <thead>
-                            <tr>
-                            <th>Description</th>
-                            <th>Amount</th>
-                            <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            { transactions.map((t)=> (
-                                <tr key={t.id}>
-                                    <td>{t.description}</td>
-                                    <td>{t.amount}</td>
-                                    <td>
-                                        <button className="dot" onClick={e => handleEdit(t)}>Edit</button>
-                                        <button className="dot1" onClick={e =>handleDelete(t.id)}>Delete</button>
-                                    </td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table> */}
-
-
             <TableContainer Container center>
                 <Table>
                     <TableHead>
