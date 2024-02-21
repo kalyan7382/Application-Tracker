@@ -60,10 +60,10 @@ function App() {
                         <h1>Add your Details</h1>
                         <form onSubmit={addTransaction} className="new">
                             <input type ="text" className ="border" 
-                                placeholder ="Description" onChange = {e => setDescription(e.target.value)} value={description} /><br/><br/>
-                            <input type ="number" className ="border" 
-                                placeholder ="Amount" onChange = {e => setAmount(e.target.value)} value={amount} /><br/><br/>
-                                <button className="new1" type="Submit">Add Details</button>
+                                placeholder ="Description" onChange = {e => setDescription(e.target.value)} value={description} required/><br/><br/>
+                            <input type ="text" className ="border" 
+                                placeholder ="Amount" onChange = {e => setAmount(e.target.value)} value={amount} required/><br/><br/>
+                                <button className="new1" type="Submit">Add Details</button> 
                         </form> 
                     </div>
                 </div>
